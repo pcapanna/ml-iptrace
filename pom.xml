@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ml</groupId>
-    <artifactId>IpTrace</artifactId>
+    <artifactId>iptrace</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>IpTrace</name>
+    <name>iptrace</name>
     <description>Trace IP Country information</description>
     <properties>
         <java.version>11</java.version>

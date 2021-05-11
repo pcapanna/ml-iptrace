@@ -23,14 +23,23 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 
-## Current Deploy
+## Build docker Image
+
+Run the following script:
+```shell
+./mvnw spring-boot:build-image
+```
+
+## Run docker Image
 
 Current Application is deployed over heroku
+```shell
+docker run -it -p8080:8080 iptrace:0.0.1-SNAPSHOT
+```
 
-Try it out: 
-https://github.com/codecentric/springboot-sample-app
+## Currently deployed on Heroku
 
-
+[a link](https://ip-trace.herokuapp.com/)
 
 ## Copyright
 
