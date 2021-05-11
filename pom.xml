@@ -15,7 +15,6 @@
     <description>Trace IP Country information</description>
     <properties>
         <java.version>11</java.version>
-        <spring-cloud.version>2020.0.2</spring-cloud.version>
     </properties>
     <dependencies>
 <!--        <dependency>-->
@@ -67,16 +66,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-contract-maven-plugin</artifactId>
-                <version>3.0.2</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <testFramework>JUNIT5</testFramework>
-                    <testMode>WEBTESTCLIENT</testMode>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
