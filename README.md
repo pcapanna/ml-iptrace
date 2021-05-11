@@ -41,9 +41,25 @@ docker run -it -p8080:8080 iptrace:0.0.1-SNAPSHOT
 
 [LIVE](https://ip-trace.herokuapp.com/)
 
-## Api Documentation can be found here
+## Documentation
 
 [WEB DOCUMENTATION](https://ip-trace-docs.herokuapp.com/)
+
+## Additional information (Spanish)
+
+
+Proyecto hecho en lenguaje java y spring boot framework. 
+
+Diseño con arquitectura hexagonal.
+La aplicación no persiste información entre reinicios o deploys distintos.
+
+Debido a la arquitectura es posible, con cierta facilidad, modificar las implementaciones de los repositorios utilizados para que usen otras estrategias de persistencia.
+Una mejora clara sería implementar Persistencia con REDIS
+
+Se utilizaron las Rutas de Api Rest externas recomendadas por la especificación.
+
+Tener en cuenta que particularmente la ruta para obtención de cotización de monedas tiene un límite máximo de
+1000 invocaciones mensuales. Debido a esto, la última cotización de una moneda no se obtiene más de 1 vez por 1 dia de unidad de tiempo.
 
 ## Copyright
 
