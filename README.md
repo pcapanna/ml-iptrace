@@ -39,7 +39,11 @@ docker run -it -p8080:8080 iptrace:0.0.1-SNAPSHOT
 
 ## Interact with live deploy on Heroku
 
-[IP TRACE](https://ip-trace.herokuapp.com/)
+[LIVE](https://ip-trace.herokuapp.com/)
+
+## Api Documentation can be found here
+
+[WEB DOCUMENTATION](https://ip-trace-docs.herokuapp.com/)
 
 ## Copyright
 
