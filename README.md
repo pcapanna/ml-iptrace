@@ -52,7 +52,7 @@ Proyecto hecho en lenguaje java y spring boot framework.
 Diseño con arquitectura hexagonal.
 La aplicación no persiste información entre reinicios o deploys distintos.
 
-Debido a la arquitectura es posible, con cierta facilidad, modificar las implementaciones de los repositorios utilizados para que usen otras estrategias de persistencia.
+Debido a la arquitectura, es posible -con cierta facilidad- modificar las implementaciones de los repositorios utilizados para que usen otras estrategias de persistencia.
 Una mejora clara sería implementar Persistencia con REDIS
 
 Se utilizaron las Rutas de Api Rest externas recomendadas por la especificación.
