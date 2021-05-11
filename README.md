@@ -1,6 +1,6 @@
 # IP Trace Application
 
-[![Build Status](https://travis-ci.org/codecentric/springboot-sample-app.svg?branch=master)]
+![Build Status](https://travis-ci.org/codecentric/springboot-sample-app.svg?branch=master)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 [Spring Boot](http://projects.spring.io/spring-boot/) app.
