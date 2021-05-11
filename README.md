@@ -32,12 +32,12 @@ Run the following script:
 
 ## Run docker Image
 
-Current Application is deployed over heroku
+Run the following script
 ```shell
 docker run -it -p8080:8080 iptrace:0.0.1-SNAPSHOT
 ```
 
-## Currently deployed on Heroku
+## Interact with live deploy on Heroku
 
 [a link](https://ip-trace.herokuapp.com/)
 
