@@ -19,7 +19,6 @@ import java.util.stream.Collectors;
 
 @UseCase
 @RequiredArgsConstructor
-@Transactional
 public class TraceIpService implements TraceIpUseCase {
 
     private final FindCountryByIpUseCase findCountryByIp;

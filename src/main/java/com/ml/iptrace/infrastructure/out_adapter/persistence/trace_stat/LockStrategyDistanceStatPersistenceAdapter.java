@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @PersistenceAdapter
 @RequiredArgsConstructor
-public class OptimizedDistanceStatPersistenceAdapter
+public class LockStrategyDistanceStatPersistenceAdapter
         implements RegisterTraceDistanceForStatsPort, ResolveTraceDistanceStatPort {
 
     private Optional<DistanceInKilometers> minDistance = Optional.empty();
