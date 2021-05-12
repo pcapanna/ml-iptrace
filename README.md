@@ -1,7 +1,6 @@
 # IP Trace Application
 
-[![Build Status](https://travis-ci.org/codecentric/springboot-sample-app.svg?branch=master)](https://travis-ci.org/codecentric/springboot-sample-app)
-[![Coverage Status](https://coveralls.io/repos/github/codecentric/springboot-sample-app/badge.svg?branch=master)](https://coveralls.io/github/codecentric/springboot-sample-app?branch=master)
+![Build Status](https://travis-ci.org/codecentric/springboot-sample-app.svg?branch=master)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 [Spring Boot](http://projects.spring.io/spring-boot/) app.
@@ -53,7 +52,7 @@ Proyecto hecho en lenguaje java y spring boot framework.
 Diseño con arquitectura hexagonal.
 La aplicación no persiste información entre reinicios o deploys distintos.
 
-Debido a la arquitectura es posible, con cierta facilidad, modificar las implementaciones de los repositorios utilizados para que usen otras estrategias de persistencia.
+Debido a la arquitectura, es posible -con cierta facilidad- modificar las implementaciones de los repositorios utilizados para que usen otras estrategias de persistencia.
 Una mejora clara sería implementar Persistencia con REDIS
 
 Se utilizaron las Rutas de Api Rest externas recomendadas por la especificación.
