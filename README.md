@@ -35,7 +35,7 @@ docker-compose build
 Run the following script
 ```shell
 #docker run -it -p8080:8080 iptrace-app
-docker run -it -p8080:8080 ml-iptrace_app
+docker run -it ml-iptrace_app
 ```
 
 ## Interact with live deploy on Heroku
