@@ -4,8 +4,10 @@ import com.fasterxml.jackson.annotation.JsonUnwrapped;
 import lombok.NonNull;
 import lombok.Value;
 
+import java.io.Serializable;
+
 @Value
-public class CurrencyCode {
+public class CurrencyCode implements Serializable {
 
     @NonNull
     @JsonUnwrapped

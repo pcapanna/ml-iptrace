@@ -26,14 +26,16 @@ mvn spring-boot:run
 
 Run the following script:
 ```shell
-./mvnw spring-boot:build-image
+#docker build -t iptrace-app .
+docker-compose build
 ```
 
 ## Run docker Image
 
 Run the following script
 ```shell
-docker run -it -p8080:8080 iptrace:0.0.1-SNAPSHOT
+#docker run -it -p8080:8080 iptrace-app
+docker run -it -p8080:8080 ml-iptrace_app
 ```
 
 ## Interact with live deploy on Heroku

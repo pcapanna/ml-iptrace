@@ -4,9 +4,10 @@ import lombok.NonNull;
 import lombok.Value;
 
 import javax.validation.constraints.Positive;
+import java.io.Serializable;
 
 @Value
-public class ExchangeRate {
+public class ExchangeRate implements Serializable {
 
 	@NonNull
 	@Positive
